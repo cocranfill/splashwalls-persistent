@@ -1,6 +1,6 @@
 # splashwalls-persistent
 
-This is an update to the tutorial written by Nash Vail, which you can find here:
+This is an update to the application built in the following tutorial written by Nash Vail:
 
 https://www.smashingmagazine.com/2016/04/the-beauty-of-react-native-building-your-first-ios-app-with-javascript-part-1/
 
