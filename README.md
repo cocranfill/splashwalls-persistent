@@ -12,3 +12,7 @@ As you might guess by the name, this update adds the following features:
   4. Aging: If on-device data is present and exactly a week old in local time, the app fetches new data across the network
 
 A future update might include a better aging mechanism; the first change would be to disregard the hours, minutes and seconds in the aging timestamp. A finer-grained aging mechanism is also envisioned where only data that has changed is pulled across the network instead of the entire list of data.
+
+Known Bugs:
+
+  The react-native-swiper component has not been updated in some time and causes two warnings to be thrown in the latest verion of React Native, one about the use of ReactNative.cloneElement and ReactNative.createElement instead of React.cloneElement and React.createElement. The use of react-native-swiper2 or react-native-swiper3 does not solve the problem; the resolution may be to rewrite the react-native-swiper component to use the correct syntax.
